@@ -183,8 +183,8 @@ html {
 @media(max-width: 780px)
 { .main_header{ height: 700px; text-align: center; }
 
-	.main_header h1{     
-	text-align: center;
+    .main_header h1{     
+    text-align: center;
     padding: 0;
     width: 100%;
     font-size: 30px; }
@@ -192,6 +192,10 @@ html {
 
 #footer{
     background-color: #0d6efd;
+}
+
+#footer i{
+    color: black;
 }
 
 #topbtn {
