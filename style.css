@@ -201,7 +201,7 @@ html {
 #topbtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 2px; 
+    bottom: 1px; 
     right: 5px; 
     z-index: 99; /* Make sure it does not overlap */
     color:black;
@@ -235,5 +235,10 @@ html {
       .btnresp{
           margin-right: -25px;
            width: 80%;
+        }
+	  
+        #footer{
+            width: 100%!important;
+            margin-left: 0%!important;
         }
   }
