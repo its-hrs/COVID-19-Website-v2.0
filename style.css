@@ -194,8 +194,8 @@ html {
     background-color: #0d6efd;
 }
 
-#footer i{
-    color: black;
+#footer a{
+    color: black!important;
 }
 
 #topbtn {
