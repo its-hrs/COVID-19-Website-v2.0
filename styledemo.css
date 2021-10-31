@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+.head h1{
+    font-size: 3rem;
+}
+
+.row{ margin: 0!important; }
+
+.nav_style{ background-color: #0d6efd;  }
+
+.nav_style a:hover{
+    color: black !important;
+    text-shadow: 1px 1px black;
+}
+
+.main_header{
+    height: 450px;
+    margin-bottom: 4%;
+}
+
+.eksath_anime img {
+    animation: heartbeat 5s linear infinite
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(.75);
+    }
+}
+
+.corona_anime img{ animation: coronamove 3s linear infinite}
+
+@keyframes coronamove{ 
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+ }
+
+ .about_section{
+     background-color:#f1f0f1;  
+     /* #d2fdf    */
+ }
+
+ .about_section button{
+     margin: 20px 4px 0px 35px;
+     white-space: normal !important;
+     word-wrap: break-word;
+     }
+
+#contact i {
+    color: black;
+  }
+
+.forms{
+    width: 100%;
+}
+
+.forms input {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 27px;
+    background: transparent;
+    margin-left: 8%;
+}
+
+.forms textarea {
+    background: transparent;
+    width: 220px;
+    margin-left:25px;
+}
+  
+.forms input:hover {
+    border: 2px solid #0d6efd;
+    border-collapse: collapse;
+  }
+
+  .covid_updates th{
+      font-weight: bold;
+      background-color: rgba(8, 218, 233, 0.5)
+  }
+
+  .live{
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 35px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.6);
+    text-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+    animation: hrs 3s alternate infinite;
+  }
+  .live2{
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 15px;
+    text-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+    animation: hrs 3s alternate infinite;
+  }
+
+  @keyframes hrs {
+        0%{background: green;}      
+        40%{background: red;}      
+        60%{background: rgb(255, 42, 42);}      
+        80%{background: blue;}      
+        100%{background: rgb(60, 60, 250);}      
+  }
+
+  .live-updates{
+      background-color:#7a7a7a4d; 
+  }
+
+  #phone:hover{
+    color:#0d6efd;
+  }
+
+  #mail:hover{
+      color: #0d6efd;
+  }
+
+  #fb:hover {
+    color: blue;
+  }
+  
+  #utube:hover {
+    color: red;
+  }
+  
+  #tweet:hover {
+    color: rgb(0, 114, 185);
+  }
+
+  #news:hover{
+      color:green;
+  }
+
+  a:visited{
+      color:black;
+  }
+  
+
+  .form-group{
+      margin-bottom: 4%;
+  }
+
+  .custom-control-input{
+      padding: 100px;
+      margin: 10px;
+  }
+
+@media(max-width: 780px)
+{ .main_header{ height: 700px; text-align: center; }
+
+	.main_header h1{     
+	text-align: center;
+    padding: 0;
+    width: 100%;
+    font-size: 30px; }
+}
+
+#footer{
+    background-color: #0d6efd;
+}
+
+#topbtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2px; 
+    right: 5px; 
+    z-index: 99; /* Make sure it does not overlap */
+    color:black;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 30px;
+
+  }
+
+  #topbtn:hover{
+      color: darkblue;
+  }
+
+  .form_style input{
+      caret-color: green;
+  }
+
+  @media only screen and (max-width: 768px){
+      .response{
+          width: 80%;
+          text-align: center;
+          margin-left: 7vw;
+      }
+
+      .imgmob{
+          margin-left: 8vw;
+          margin-bottom: 4vw;
+      }
+
+      .btnresp{
+          margin-right: -25px;
+           width: 80%;
+        }
+  }
