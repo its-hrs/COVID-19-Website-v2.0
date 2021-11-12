@@ -18,8 +18,8 @@ html {
 .nav_style{ background-color: #0d6efd;  }
 
 .nav_style a:hover{
-    color: black !important;
-    text-shadow: 1px 1px black;
+    color: black!important;
+    border-bottom: 2px solid black;
 }
 
 .main_header{
